@@ -27,3 +27,6 @@ coverage
 *.iml
 out
 gen
+
+# Ignore application configuration
+/config/application.yml
