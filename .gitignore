@@ -17,3 +17,13 @@
 /yarn-error.log
 
 .byebug_history
+### Example user template template
+### Example user template
+
+coverage
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
