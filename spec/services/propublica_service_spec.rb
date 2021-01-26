@@ -7,7 +7,7 @@ describe PropublicaService do
 		expect(propublica_service).to be_an_instance_of(PropublicaService)
 	end
 
-	it 'gets number by state' do
+	it 'gets number by state', :vcr do
 		propublica_service = PropublicaService.new("CO")
 
 		member = propublica_service.members_by_state[:results].first
