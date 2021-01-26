@@ -1,7 +1,7 @@
 class SearchController < ApplicationController
 
 	def index
-		state = params[:state]
+		state   = params[:state]
 		@search = MemberSearchResult.new(state)
 	end
 

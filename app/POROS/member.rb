@@ -5,10 +5,10 @@ class Member
 	            :party
 
 	def initialize(attributes)
-		@name = attributes[:name]
-		@role = attributes[:role]
+		@name     = attributes[:name]
+		@role     = attributes[:role]
 		@district = attributes[:district]
-		@party = attributes[:party]
+		@party    = attributes[:party]
 	end
 
 end

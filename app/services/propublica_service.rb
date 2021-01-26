@@ -16,7 +16,7 @@ class PropublicaService
 
 	def get_json(url)
 		response = conn.get(url)
-		data = JSON.parse(response.body, symbolize_names: true)
+		data     = JSON.parse(response.body, symbolize_names: true)
 	end
 
 end
